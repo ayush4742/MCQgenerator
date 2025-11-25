@@ -1,0 +1,7 @@
+[2025-11-25 20:24:37,885] 293 langchain_core.callbacks.manager - WARNING - Error in StdOutCallbackHandler.on_chain_start callback: AttributeError("'NoneType' object has no attribute 'get'")
+[2025-11-25 20:24:37,885] 293 langchain_core.callbacks.manager - WARNING - Error in StdOutCallbackHandler.on_chain_start callback: AttributeError("'NoneType' object has no attribute 'get'")
+[2025-11-25 20:24:39,082] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+[2025-11-25 20:24:39,082] 1071 openai._base_client - INFO - Retrying request to /chat/completions in 0.392905 seconds
+[2025-11-25 20:24:40,497] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+[2025-11-25 20:24:40,498] 1071 openai._base_client - INFO - Retrying request to /chat/completions in 0.946561 seconds
+[2025-11-25 20:24:42,687] 1025 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
